@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labTask19 - Bona IT interview</title>
+</head>
+<body>
+    
+
+    <script>
+        const num = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
+
+        for (let i=0; i< num.length; i++){
+            document.write(`row ${i}<br>`);
+            for (let j=0; j< num[i].length; j++){
+                document.write(`${num[i][j]}<br>`);
+            }
+        }
+    </script>
+
+    <script>
+        document.write(`<hr>`);
+        const num1 = [5, 6, 3, 8, 6, 7];
+        var sum=0, product=1;
+        for (let i=0; i< num1.length; i++){
+            sum += num1[i];
+            product *= num1[i];
+        }
+        document.write(`Sum:${sum}<br> Product:${product}<br>`);
+    </script>
+</body>
+</html>
